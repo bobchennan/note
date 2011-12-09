@@ -52,3 +52,45 @@ Arrays
 
 Back to the simple examples
 ===========================
+
+* 使用def来定义函数
+
+* case ... when ... when ... end
+
+* case利用===进行测试，例如(2..5) === i，以及/\d/ === "1"
+
+* while ... end
+
+* while和if可以写成后缀格式，例如puts "is zero" if a == 0，或者puts i += 1 while i < 3
+
+* unless是if的反面，until是while的反面
+
+* break是C里面的break，next是C里面的continue，redo是再来一发（当前循环），还可以直接return
+
+* ruby的for是foreach，还等价于each方法，例如for e in c ... end等价于c.each {|e| ... }
+
+Iterators
+=========
+
+* string提供each_byte和each_line迭代器，each实现的是each_line
+
+* retry可以重来整个循环
+
+* yield用来调用作为参数的语句块
+
+Object-oriented thinking
+========================
+
+Methods
+=======
+
+* 函数调用的括号可以省略
+
+* 可以用self来指代实例，而且可以省略
+
+Classes
+=======
+
+* 使用class来定义类，def来定义其成员函数
+
+* new方法用来创建实例
