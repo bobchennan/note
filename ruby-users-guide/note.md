@@ -94,3 +94,89 @@ Classes
 * 使用class来定义类，def来定义其成员函数
 
 * new方法用来创建实例
+
+Inheritance
+===========
+
+* 使用\<来表示继承
+
+Redefinition of methods
+=======================
+
+* 可以直接重写成员函数
+
+* 使用super来调用父类的同名函数
+
+Singleton methods
+=================
+
+* 可以为实例定义方法
+
+Modules
+=======
+
+* 使用.或者::来调用
+
+* 使用include来导入
+
+* 可以利用include来实现多继承
+
+Procedure objects
+=================
+
+* proc{}用来定义过程对象
+
+* 过程对象通过call方法执行
+
+* trap用于响应系统调用
+
+Variables
+=========
+
+* $表示全局变量，@表示实例变脸，小写字母表示实例变量，大写字母表示常量
+
+* self和nil是例外，self是个全局变量，而nil是个常量
+
+Global variables
+================
+
+* 可以使用trace_var来跟踪变量改变
+
+Instance variables
+==================
+
+Local variables
+===============
+
+* 对于局部变量，第一次赋值等于声明
+
+Class constants
+===============
+
+Exception processing: rescue
+============================
+
+* 使用open来打开文件
+
+* rescue相当于except，使用retry再来一发
+
+Exception processing: ensure
+============================
+
+* 搞不定就fail吧
+
+* ensure相当于finally
+
+Accessors
+=========
+
+* 可以定义attr=和attr方法来实现setter和getter
+
+* 定义inspect来代替默认返回值
+
+* 使用attr_reader, attr_writer, attr_accessor来快速定义setter和getter
+
+Object initialization
+=====================
+
+* 使用initialize定义构造函数
